@@ -1,0 +1,129 @@
+{
+  "meta": {
+    "course_title": "Python 入门到 AI 小项目（8 周课程）",
+    "description": "教学方式：ILT（讲师引导式培训）+ 每周末交付一个可运行小作品。",
+    "total_weeks": 8,
+    "generated_on": "2026-10-09",
+    "generator": "CourseForge v0.1 (C8 Project C prototype)"
+  },
+  "course_goals": [
+    "掌握 Python 基础语法与文件读写",
+    "理解\"大模型本身无记忆，记忆靠外部文件\"这一关键认知",
+    "能独立跑通一个本地/云端调用的最小 Agent",
+    "学会用 GitHub 把自己的作品开源出去"
+  ],
+  "units": [
+    {
+      "week": 1,
+      "unit_title": "环境与第一行代码",
+      "learning_objectives": [
+        "能在自己电脑跑通 Python",
+        "理解变量、输入输出、报错怎么读"
+      ],
+      "key_concepts": [
+        "安装 Python 与编辑器",
+        "print / input / 变量",
+        "如何读懂报错信息"
+      ],
+      "weekend_deliverable": "一个能在本机跑通的 hello 世界 + 一张你读懂的报错截图"
+    },
+    {
+      "week": 2,
+      "unit_title": "用程序处理文字与文件",
+      "learning_objectives": [
+        "会读写本地文本文件",
+        "理解字符串与列表的基本操作"
+      ],
+      "key_concepts": [
+        "open() 读写文件",
+        "字符串拼接、切分",
+        "第一个小工具：记事本"
+      ],
+      "weekend_deliverable": "一个命令行小记事本（能读写本地 .txt）"
+    },
+    {
+      "week": 3,
+      "unit_title": "数据结构入门",
+      "learning_objectives": [
+        "理解字典 dict 并能存/取键值",
+        "理解 JSON 是\"给程序看的字典\""
+      ],
+      "key_concepts": [
+        "dict 的增删改查",
+        "json.dumps / json.loads",
+        "把一组笔记存成 memory.json"
+      ],
+      "weekend_deliverable": "把任意 5 条个人笔记存成 memory.json 并能读回"
+    },
+    {
+      "week": 4,
+      "unit_title": "什么是\"记忆 Agent\"",
+      "learning_objectives": [
+        "说清大模型为什么本身没有记忆",
+        "画出\"读记忆→提问→写记忆\"的循环"
+      ],
+      "key_concepts": [
+        "上下文窗口概念",
+        "memory.json 读写时机",
+        "半自动工具调用思路"
+      ],
+      "weekend_deliverable": "一张手绘/电子的「读记忆→提问→写记忆」循环图"
+    },
+    {
+      "week": 5,
+      "unit_title": "调用一个大模型",
+      "learning_objectives": [
+        "能通过 API 或本地模型拿到一句回答",
+        "理解 prompt 是怎么写的"
+      ],
+      "key_concepts": [
+        "一次最小请求",
+        "system / user 角色",
+        "常见报错与超时处理"
+      ],
+      "weekend_deliverable": "一段能拿到模型一句话回答的最小脚本"
+    },
+    {
+      "week": 6,
+      "unit_title": "把聊天串成循环",
+      "learning_objectives": [
+        "做出一个能多轮对话的命令行程序",
+        "把 memory 接进对话循环"
+      ],
+      "key_concepts": [
+        "while 循环读输入",
+        "每轮注入历史记忆",
+        "对话结束写回文件"
+      ],
+      "weekend_deliverable": "一个能多轮对话、并记住上一轮内容的命令行小程序"
+    },
+    {
+      "week": 7,
+      "unit_title": "加一个技能（工具调用）",
+      "learning_objectives": [
+        "实现一个关键词触发的小工具",
+        "理解\"半自动调用\"比\"全自动\"更适合新手"
+      ],
+      "key_concepts": [
+        "关键词路由",
+        "技能函数的输入输出约定",
+        "错误兜底"
+      ],
+      "weekend_deliverable": "在对话里接入至少 1 个关键词触发的小工具"
+    },
+    {
+      "week": 8,
+      "unit_title": "开源你的作品",
+      "learning_objectives": [
+        "把代码整理成别人能用的样子",
+        "写 README 并发布到 GitHub"
+      ],
+      "key_concepts": [
+        "目录结构与 README",
+        "通过接口上传文件",
+        "写一篇复盘文章"
+      ],
+      "weekend_deliverable": "整理好的开源仓库 + README + 一篇复盘"
+    }
+  ]
+}
