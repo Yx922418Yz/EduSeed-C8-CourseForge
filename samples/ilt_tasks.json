@@ -1,0 +1,226 @@
+{
+  "meta": {
+    "course_title": "Python 入门到 AI 小项目（8 周课程）",
+    "task_type": "ILT (Interactive Learning Task)",
+    "total_tasks": 8,
+    "generated_on": "2026-10-09"
+  },
+  "tasks": [
+    {
+      "task_id": "ILT-W01",
+      "week": 1,
+      "title": "Week 1 · 环境与第一行代码",
+      "mode": "ILT",
+      "estimated_minutes": 90,
+      "instructor_guide": {
+        "warmup_question": "上一周我们搞定了上一步。这周进《环境与第一行代码》——我先问你：你觉得这周最该先搞懂的是哪一点？（提示：能在自己电脑跑通 Python）",
+        "walkthrough_points": [
+          "安装 Python 与编辑器",
+          "print / input / 变量",
+          "如何读懂报错信息"
+        ],
+        "common_pitfall": "环境装半天跑不起来就放弃——其实多半是路径/勾选问题。"
+      },
+      "learner_task": {
+        "input": "完成本周《环境与第一行代码》的动手练习，并产出：一个能在本机跑通的 hello 世界 + 一张你读懂的报错截图",
+        "starter_prompt_for_agent": "你是我的学习搭子老师。现在是第 1 周，主题是《环境与第一行代码》。我的学习目标是：能在自己电脑跑通 Python；理解变量、输入输出、报错怎么读。请一步步引导我动手做，每步只给一个小任务，我做完再下一步。",
+        "expected_output": "一个能在本机跑通的 hello 世界 + 一张你读懂的报错截图"
+      },
+      "success_criteria": [
+        "能口述本周目标：能在自己电脑跑通 Python",
+        "动手完成：一个能在本机跑通的 hello 世界 + 一张你读懂的报错截图",
+        "遇到报错时能自己先读懂报错再求助"
+      ],
+      "memory_checkpoint": "对话结束前，把'我这周搞懂了什么 / 还卡在哪'写进我的学习记忆文件，下周开课时先读它。"
+    },
+    {
+      "task_id": "ILT-W02",
+      "week": 2,
+      "title": "Week 2 · 用程序处理文字与文件",
+      "mode": "ILT",
+      "estimated_minutes": 90,
+      "instructor_guide": {
+        "warmup_question": "上一周我们搞定了上一步。这周进《用程序处理文字与文件》——我先问你：你觉得这周最该先搞懂的是哪一点？（提示：会读写本地文本文件）",
+        "walkthrough_points": [
+          "open() 读写文件",
+          "字符串拼接、切分",
+          "第一个小工具：记事本"
+        ],
+        "common_pitfall": "文件读写忘了关闭或编码，导致乱码。"
+      },
+      "learner_task": {
+        "input": "完成本周《用程序处理文字与文件》的动手练习，并产出：一个命令行小记事本（能读写本地 .txt）",
+        "starter_prompt_for_agent": "你是我的学习搭子老师。现在是第 2 周，主题是《用程序处理文字与文件》。我的学习目标是：会读写本地文本文件；理解字符串与列表的基本操作。请一步步引导我动手做，每步只给一个小任务，我做完再下一步。",
+        "expected_output": "一个命令行小记事本（能读写本地 .txt）"
+      },
+      "success_criteria": [
+        "能口述本周目标：会读写本地文本文件",
+        "动手完成：一个命令行小记事本（能读写本地 .txt）",
+        "遇到报错时能自己先读懂报错再求助"
+      ],
+      "memory_checkpoint": "对话结束前，把'我这周搞懂了什么 / 还卡在哪'写进我的学习记忆文件，下周开课时先读它。"
+    },
+    {
+      "task_id": "ILT-W03",
+      "week": 3,
+      "title": "Week 3 · 数据结构入门",
+      "mode": "ILT",
+      "estimated_minutes": 90,
+      "instructor_guide": {
+        "warmup_question": "上一周我们搞定了上一步。这周进《数据结构入门》——我先问你：你觉得这周最该先搞懂的是哪一点？（提示：理解字典 dict 并能存/取键值）",
+        "walkthrough_points": [
+          "dict 的增删改查",
+          "json.dumps / json.loads",
+          "把一组笔记存成 memory.json"
+        ],
+        "common_pitfall": "把 JSON 当 Python 字典直接写，忘记序列化。"
+      },
+      "learner_task": {
+        "input": "完成本周《数据结构入门》的动手练习，并产出：把任意 5 条个人笔记存成 memory.json 并能读回",
+        "starter_prompt_for_agent": "你是我的学习搭子老师。现在是第 3 周，主题是《数据结构入门》。我的学习目标是：理解字典 dict 并能存/取键值；理解 JSON 是\"给程序看的字典\"。请一步步引导我动手做，每步只给一个小任务，我做完再下一步。",
+        "expected_output": "把任意 5 条个人笔记存成 memory.json 并能读回"
+      },
+      "success_criteria": [
+        "能口述本周目标：理解字典 dict 并能存/取键值",
+        "动手完成：把任意 5 条个人笔记存成 memory.json 并能读回",
+        "遇到报错时能自己先读懂报错再求助"
+      ],
+      "memory_checkpoint": "对话结束前，把'我这周搞懂了什么 / 还卡在哪'写进我的学习记忆文件，下周开课时先读它。"
+    },
+    {
+      "task_id": "ILT-W04",
+      "week": 4,
+      "title": "Week 4 · 什么是\"记忆 Agent\"",
+      "mode": "ILT",
+      "estimated_minutes": 90,
+      "instructor_guide": {
+        "warmup_question": "上一周我们搞定了上一步。这周进《什么是\"记忆 Agent\"》——我先问你：你觉得这周最该先搞懂的是哪一点？（提示：说清大模型为什么本身没有记忆）",
+        "walkthrough_points": [
+          "上下文窗口概念",
+          "memory.json 读写时机",
+          "半自动工具调用思路"
+        ],
+        "common_pitfall": "误以为大模型本身有记忆，关掉窗口还在。"
+      },
+      "learner_task": {
+        "input": "完成本周《什么是\"记忆 Agent\"》的动手练习，并产出：一张手绘/电子的「读记忆→提问→写记忆」循环图",
+        "starter_prompt_for_agent": "你是我的学习搭子老师。现在是第 4 周，主题是《什么是\"记忆 Agent\"》。我的学习目标是：说清大模型为什么本身没有记忆；画出\"读记忆→提问→写记忆\"的循环。请一步步引导我动手做，每步只给一个小任务，我做完再下一步。",
+        "expected_output": "一张手绘/电子的「读记忆→提问→写记忆」循环图"
+      },
+      "success_criteria": [
+        "能口述本周目标：说清大模型为什么本身没有记忆",
+        "动手完成：一张手绘/电子的「读记忆→提问→写记忆」循环图",
+        "遇到报错时能自己先读懂报错再求助"
+      ],
+      "memory_checkpoint": "对话结束前，把'我这周搞懂了什么 / 还卡在哪'写进我的学习记忆文件，下周开课时先读它。"
+    },
+    {
+      "task_id": "ILT-W05",
+      "week": 5,
+      "title": "Week 5 · 调用一个大模型",
+      "mode": "ILT",
+      "estimated_minutes": 90,
+      "instructor_guide": {
+        "warmup_question": "上一周我们搞定了上一步。这周进《调用一个大模型》——我先问你：你觉得这周最该先搞懂的是哪一点？（提示：能通过 API 或本地模型拿到一句回答）",
+        "walkthrough_points": [
+          "一次最小请求",
+          "system / user 角色",
+          "常见报错与超时处理"
+        ],
+        "common_pitfall": "超时/密钥报错就卡住，不会读报错。"
+      },
+      "learner_task": {
+        "input": "完成本周《调用一个大模型》的动手练习，并产出：一段能拿到模型一句话回答的最小脚本",
+        "starter_prompt_for_agent": "你是我的学习搭子老师。现在是第 5 周，主题是《调用一个大模型》。我的学习目标是：能通过 API 或本地模型拿到一句回答；理解 prompt 是怎么写的。请一步步引导我动手做，每步只给一个小任务，我做完再下一步。",
+        "expected_output": "一段能拿到模型一句话回答的最小脚本"
+      },
+      "success_criteria": [
+        "能口述本周目标：能通过 API 或本地模型拿到一句回答",
+        "动手完成：一段能拿到模型一句话回答的最小脚本",
+        "遇到报错时能自己先读懂报错再求助"
+      ],
+      "memory_checkpoint": "对话结束前，把'我这周搞懂了什么 / 还卡在哪'写进我的学习记忆文件，下周开课时先读它。"
+    },
+    {
+      "task_id": "ILT-W06",
+      "week": 6,
+      "title": "Week 6 · 把聊天串成循环",
+      "mode": "ILT",
+      "estimated_minutes": 90,
+      "instructor_guide": {
+        "warmup_question": "上一周我们搞定了上一步。这周进《把聊天串成循环》——我先问你：你觉得这周最该先搞懂的是哪一点？（提示：做出一个能多轮对话的命令行程序）",
+        "walkthrough_points": [
+          "while 循环读输入",
+          "每轮注入历史记忆",
+          "对话结束写回文件"
+        ],
+        "common_pitfall": "每轮不注入历史，导致'失忆'。"
+      },
+      "learner_task": {
+        "input": "完成本周《把聊天串成循环》的动手练习，并产出：一个能多轮对话、并记住上一轮内容的命令行小程序",
+        "starter_prompt_for_agent": "你是我的学习搭子老师。现在是第 6 周，主题是《把聊天串成循环》。我的学习目标是：做出一个能多轮对话的命令行程序；把 memory 接进对话循环。请一步步引导我动手做，每步只给一个小任务，我做完再下一步。",
+        "expected_output": "一个能多轮对话、并记住上一轮内容的命令行小程序"
+      },
+      "success_criteria": [
+        "能口述本周目标：做出一个能多轮对话的命令行程序",
+        "动手完成：一个能多轮对话、并记住上一轮内容的命令行小程序",
+        "遇到报错时能自己先读懂报错再求助"
+      ],
+      "memory_checkpoint": "对话结束前，把'我这周搞懂了什么 / 还卡在哪'写进我的学习记忆文件，下周开课时先读它。"
+    },
+    {
+      "task_id": "ILT-W07",
+      "week": 7,
+      "title": "Week 7 · 加一个技能（工具调用）",
+      "mode": "ILT",
+      "estimated_minutes": 90,
+      "instructor_guide": {
+        "warmup_question": "上一周我们搞定了上一步。这周进《加一个技能（工具调用）》——我先问你：你觉得这周最该先搞懂的是哪一点？（提示：实现一个关键词触发的小工具）",
+        "walkthrough_points": [
+          "关键词路由",
+          "技能函数的输入输出约定",
+          "错误兜底"
+        ],
+        "common_pitfall": "一上来追求全自动工具调用，把自己绕晕。"
+      },
+      "learner_task": {
+        "input": "完成本周《加一个技能（工具调用）》的动手练习，并产出：在对话里接入至少 1 个关键词触发的小工具",
+        "starter_prompt_for_agent": "你是我的学习搭子老师。现在是第 7 周，主题是《加一个技能（工具调用）》。我的学习目标是：实现一个关键词触发的小工具；理解\"半自动调用\"比\"全自动\"更适合新手。请一步步引导我动手做，每步只给一个小任务，我做完再下一步。",
+        "expected_output": "在对话里接入至少 1 个关键词触发的小工具"
+      },
+      "success_criteria": [
+        "能口述本周目标：实现一个关键词触发的小工具",
+        "动手完成：在对话里接入至少 1 个关键词触发的小工具",
+        "遇到报错时能自己先读懂报错再求助"
+      ],
+      "memory_checkpoint": "对话结束前，把'我这周搞懂了什么 / 还卡在哪'写进我的学习记忆文件，下周开课时先读它。"
+    },
+    {
+      "task_id": "ILT-W08",
+      "week": 8,
+      "title": "Week 8 · 开源你的作品",
+      "mode": "ILT",
+      "estimated_minutes": 90,
+      "instructor_guide": {
+        "warmup_question": "上一周我们搞定了上一步。这周进《开源你的作品》——我先问你：你觉得这周最该先搞懂的是哪一点？（提示：把代码整理成别人能用的样子）",
+        "walkthrough_points": [
+          "目录结构与 README",
+          "通过接口上传文件",
+          "写一篇复盘文章"
+        ],
+        "common_pitfall": "README 写得太简略，别人看不懂怎么用。"
+      },
+      "learner_task": {
+        "input": "完成本周《开源你的作品》的动手练习，并产出：整理好的开源仓库 + README + 一篇复盘",
+        "starter_prompt_for_agent": "你是我的学习搭子老师。现在是第 8 周，主题是《开源你的作品》。我的学习目标是：把代码整理成别人能用的样子；写 README 并发布到 GitHub。请一步步引导我动手做，每步只给一个小任务，我做完再下一步。",
+        "expected_output": "整理好的开源仓库 + README + 一篇复盘"
+      },
+      "success_criteria": [
+        "能口述本周目标：把代码整理成别人能用的样子",
+        "动手完成：整理好的开源仓库 + README + 一篇复盘",
+        "遇到报错时能自己先读懂报错再求助"
+      ],
+      "memory_checkpoint": "对话结束前，把'我这周搞懂了什么 / 还卡在哪'写进我的学习记忆文件，下周开课时先读它。"
+    }
+  ]
+}
